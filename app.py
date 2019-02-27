@@ -68,6 +68,12 @@ def handle_message(event):
         r = "還沒"
     elif msg == "你是誰?":
         r = "我是機器人"
+    elif msg == "你愛我嗎?":
+        r = 超愛
+    elif "你女朋是誰" in. msg:
+        r = JJ
+    elif msg == "今天好累":
+        r = "辛苦啦～早點睡～記得抬腳！" 
     elif "訂位" in msg:
         r = "您想訂位，是嗎?"
 
