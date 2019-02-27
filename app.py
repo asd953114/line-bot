@@ -51,7 +51,7 @@ def handle_message(event):
     msg = event.message.text
 
     if "給我貼圖" in msg:
-         sticker_message = StickerSendMessage(
+        sticker_message = StickerSendMessage(
             package_id='1',
             sticker_id='1'
         )
@@ -61,7 +61,7 @@ def handle_message(event):
             sticker_message)
 
         return
-        
+
     if msg in ["hi", "Hi"]:
         r = "hi!"
     elif msg == "你吃飯了嗎?":
