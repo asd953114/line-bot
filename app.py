@@ -67,15 +67,19 @@ def handle_message(event):
     elif msg == "你吃飯了嗎?":
         r = "還沒"
     elif msg == "你是誰?":
-        r = "我是機器人"
+        r = "我是yoyo 林宗佑"
     elif msg == "你愛我嗎?":
         r = "超愛"
     elif "你女友是誰" in msg:
         r = "JJ"
     elif msg == "今天好累":
-        r = "辛苦啦～早點睡～記得抬腳！" 
+        r = "辛苦啦～" 
     elif "訂位" in msg:
         r = "您想訂位，是嗎?"
+    elif msg == "今天天氣如何？":
+        r = "爆幹好"
+    elif msg == "安安":
+        r = "安安"
 
     line_bot_api.reply_message(
         event.reply_token,
